@@ -1,0 +1,349 @@
+body{
+    background-color: #232A30; 
+    margin: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.containerNew{
+    display: flex;  
+}
+.header{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    position: relative;  
+}
+.menu{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color:#E3E4DD;
+}
+h4{
+    font-size: 0px;
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    color:#212121;
+    position: absolute;
+    left: 20px;
+    background-color: #E0DECA;
+}
+.price{
+    position: absolute;
+    font-size: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color:#212121;
+    background-color: #E0DECA;
+    bottom: 20px;
+    left: 20px; 
+}
+.one{
+    background-image: url(menu10.jpg);
+}
+.two{
+    background-image: url(menu14.jpg);
+}
+.three{
+    background-image: url(menu23.jpg);
+}
+.four{
+    background-image: url(menu15.jpg);
+}
+.five{
+    background-image: url(menu21.jpg);
+}
+.selected{
+    flex: 4;
+}
+.selected h4{
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+.selected .price{
+    font-size: 35px;
+}
+
+
+
+.OnePage{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    color: white;
+    font-size: 110px;
+}
+.aboutOne{
+    color: white;
+    font-size: 20px; 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    right: 650px;
+    
+}
+.aboutTwo{
+    color: white;
+    font-size: 20px; 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    right: 500px;
+}
+.aboutOne:hover{
+    text-transform: uppercase;
+}
+.aboutTwo:hover{
+    text-transform: uppercase;
+}
+.image{
+    height: 100vh;
+}
+.parent{
+    display: flex;
+}
+.btnNew{
+    background-color:#850000;
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    top: 500px;  
+    right: 100px;
+    position: absolute;
+    width: 13%;
+    font-family: 'Poppins', sans-serif;
+} 
+.my{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DFE0D8;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    background-color: #DFE0D8;
+    margin: 0;
+    color: #232A30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+.menu4{
+    padding: 20px;
+    color: #232A30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    margin-top: 50px; 
+}
+.my2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.menu3{
+    display: flex;
+    justify-content: center;
+    color: #232A30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+}
+li{
+    color: #232A30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    list-style: none;
+}
+.menu6{
+    display: flex;
+    justify-content: center;
+    background-color: #DFE0D8;
+}
+.menu5{
+    background-color: #850000;
+    color:#DFE0D8 ;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+.car{
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    color: white;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif; 
+}
+.we{
+    display: flex;
+    justify-content: center;
+}
+.we2{
+    color: white;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.contactsOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactsTwo, .contactsThree{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.find{
+    color: white;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 40px;
+}
+.findOne{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.cont{
+    color: white;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin-top: 40px;
+}
+.wou{
+    display: flex;
+    justify-content: center;
+    background: #DFE0D8;
+}
+.icon{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.icon:hover{
+    filter: drop-shadow(3px 3px 5px rgba(78, 77, 77, 0.74));  
+}
+
+
+
+
+
+@media all and (max-width:800px){
+    .containerNew{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+    .OnePage{
+        font-size: 20px;
+        left: 160px;
+        top:50px;
+    }
+    .aboutOne{
+        right: 80px;
+        font-size: 10px;
+    }
+    .aboutTwo{
+        right:20px;
+        font-size: 10px;
+    }
+    .btnNew{
+        right: 50px;
+        top: 150px;
+        font-size: 10px;
+        padding: 10px;
+    }
+    .menu{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 10px;
+    }
+    .selected h4{
+        font-size: 15px;
+    }
+    .selected .price{
+        font-size: 15px;
+    }
+    .menu4{
+        font-size: 10px;
+    }
+    .menu5{
+        font-size: 10px;
+        padding: 10px;
+    }
+    .menu3{
+        font-size: 15px;
+    }
+    li{
+        font-size: 10px;
+    }
+    .my{
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+    
+    .my2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .we2{
+        font-size: 20px;
+    }
+    .car{
+        font-size: 10px;
+        left: 40px;
+        top: 10px;
+    }
+    .cont{
+        font-size: 20px;
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .map{
+        width: 300px;
+        height: 200px;
+    }
+    .find{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .findOne{
+        font-size: 10px;
+    }
+    .contactsThree{
+        margin-bottom: 150px;
+    }
+    .contactsTwo{
+        margin-top: 30px;
+    }
+    .icon{
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+}
